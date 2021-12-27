@@ -1,3 +1,7 @@
+*{
+  font-family: "Nunito Sans"
+}
+
 header {
   font-weight: 700;
   font-size: 26px;
@@ -8,7 +12,17 @@ article {
   border: 5px, solid, grey;
 }
 
+.bold {
+  font-weight: 700;
+}
 
+.regular {
+  font-weight: 500;
+}
+
+.italic {
+  font-style: italic;
+}
 
 #cool-blue {
   background-color: #2d5dcc;
@@ -27,14 +41,33 @@ article {
   background-color: #efd9ca;
 }
 
-#source-code-pro {
+.source-code-pro {
   font-family: 'Source Code Pro', monospace;
 }
 
-#nunito-sans {
+.nunito-sans {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-#poppins {
+.poppins {
   font-family: 'Poppins', sans-serif;
+}
+
+#fonts h1{
+  text-decoration-line: underline;
+}
+
+#h1 h1{
+  font-weight: 700;
+  font-size: 26px;
+}
+
+#h2 h1{
+  font-weight: 500;
+  font-size: 18px
+}
+
+#p h1 {
+  font-weight: 400;
+  font-size: 14px;
 }
