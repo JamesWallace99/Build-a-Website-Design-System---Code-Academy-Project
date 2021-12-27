@@ -71,3 +71,9 @@ article {
   font-weight: 400;
   font-size: 14px;
 }
+
+article {
+  padding: 20px 10px;
+  border: 5px gray solid;
+  margin: 10px 40px;
+}
